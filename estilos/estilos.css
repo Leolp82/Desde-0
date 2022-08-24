@@ -27,6 +27,7 @@
 .nav-item a:hover{
     transform: scale(1.25);
     transition: all 0.3s;
+    color: white !important;
 }
 
 .carousel-item img{
@@ -63,7 +64,7 @@ h2.nosotros{
 }
 .ar{
     background-image: url(../img/nosotros.jpg) ;
-    height: 400px;
+    height: 375px;
     background-size: cover;
     background-position: center;
 }
@@ -260,20 +261,24 @@ footer{
 .fb :hover{
     transform: scale(1.25);
     transition: all 0.3s;
+    color: #4267B2;
 }
 .ig :hover{
     transform: scale(1.25);
     transition: all 0.3s;
+    color: #C13584;
 }
 .wsp :hover{
     transform: scale(1.25);
     transition: all 0.3s;
+    color:#25D366;
 }
 
 .copy {
     grid-area: copy;
     place-self: center;
     font-weight: bold;
+    padding-left: 15px;
 }
 /* @media only screen and (min-width: 576px) and (max-width: 768px){
     .combos{
@@ -281,9 +286,43 @@ footer{
         padding-right: 130px;
         padding-bottom: 10px;
     }
-}
-@media only screen and (min-width: 300px) and (max-width: 575px){
-    .combos{
-        padding-left: 30px;
-    }
 } */
+
+@media only screen and (min-width: 404px) and (max-width: 500px){
+    .copy{
+        font-size: 14px;
+        padding-left: 20px;
+    }   
+    .trabaja{
+        font-size: 14px;
+    }
+    .trabaja h4{
+        font-size: 16px;
+    }
+    .redes{
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    .carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media only screen and (min-width: 250px) and (max-width: 403px){
+    .copy{
+        font-size: 14px;
+        padding-left: 20px;
+    }   
+    .trabaja{
+        font-size: 14px;
+    }
+    .trabaja h4{
+        font-size: 16px;
+    }
+    .redes{
+        font-size: 20px;
+        padding-right: 0px;
+        margin-right: 0px
+    }
+}
