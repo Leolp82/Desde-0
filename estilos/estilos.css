@@ -1,93 +1,104 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-.bgnav{
+.bgnav {
     background-color: #4fe49e
 }
 
-.nav-link{
+.nav-link {
     color: #7B8352 !important;
     font-weight: bold;
 }
 
-.navbar-brand{
+.navbar-brand {
     text-shadow: 0 0 5px black;
     display: flex;
     align-items: center;
     padding: 5px;
 }
-.navbar-brand::before{
+
+.navbar-brand::before {
     content: url(../img/logo80.jpg);
     margin-right: 15px;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     transform: scale(1.25);
     transition: all 0.3s;
     color: white !important;
 }
 
-.carousel-item img{
+.carousel-item img {
     opacity: 0.85;
 }
-.carousel-item{
+
+.carousel-item {
     text-align: center;
     height: 500px;
 }
-.carousel-control-prev-icon{
-    background-color: #7B8352;
-}
-.carousel-control-next-icon{
+
+.carousel-control-prev-icon {
     background-color: #7B8352;
 }
 
-.carousel{
+.carousel-control-next-icon {
+    background-color: #7B8352;
+}
+
+.carousel {
     width: 100%;
     padding: 0px;
     margin: 0px;
 }
-.carousel-caption h2{
-    color:  white;
+
+.carousel-caption h2 {
+    color: white;
     text-shadow: 0 0 10px black;
     letter-spacing: 2px;
 }
 
-h2.nosotros{
+h2.nosotros {
     background-color: #4fe49e;
     color: #7B8352;
     text-align: center;
     text-shadow: 0 0 2px black;
     margin: 0px;
 }
-.ar{
-    background-image: url(../img/nosotros.jpg) ;
+
+.ar {
+    background-image: url(../img/nosotros.jpg);
     height: 375px;
     background-size: cover;
     background-position: center;
 }
-.al{
+
+.al {
     background-color: #eef79f;
 }
-.al h3{
+
+.al h3 {
     margin: 20px;
     text-align: center;
     color: #7B8352;
 }
-.btn-info{
+
+.btn-info {
     background-color: #4fe49e;
     color: #7B8352;
     border-color: #4fe49e;
     font-weight: 600;
 }
-.btn-info:hover{
+
+.btn-info:hover {
     background-color: #7B8352;
     color: #4fe49e;
     border-color: #7B8352;
 }
-.nosotros{
+
+.nosotros {
     background-color: #4fe49e;
     color: #7B8352;
     background-image: linear-gradient(180deg, #4fe49e 0%, #eef79f 82%);
@@ -96,60 +107,68 @@ h2.nosotros{
     justify-content: center;
     padding: 15px;
 }
-.nar1{
+
+.nar1 {
     background-image: url(../img/aldi.jpg);
     height: 300px;
     background-size: cover;
     background-position: center;
 }
-.nar3{
+
+.nar3 {
     background-image: url(../img/mati.jpg);
     height: 300px;
     background-size: cover;
     background-position: center;
 }
-.nmd2{
+
+.nmd2 {
     background-image: url(../img/timo.jpg);
     height: 300px;
     background-size: cover;
     background-position: center;
 }
 
-aside{
+aside {
     padding: 20px;
 }
-.row{
+
+.row {
     background-color: #eef79f;
 }
 
-.col-sm-6.col-md-3.col-lg-3{
+.col-sm-6.col-md-3.col-lg-3 {
     padding: 30px;
     background-size: cover;
     background-position: center;
     text-align: start;
 }
-.cafeimg{
+
+.cafeimg {
     background-image: url(../img/img_4.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-bottom: 25px;
 }
-.frioimg{
+
+.frioimg {
     background-image: url(../img/cafe-frio.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-bottom: 25px;
 }
-.extraimg{
+
+.extraimg {
     background-image: url(../img/leche-almendra.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-bottom: 25px;
 }
-.teimg{
+
+.teimg {
     background-image: url(../img/te-hebras.jpg);
     background-position: center;
     background-size: cover;
@@ -157,74 +176,81 @@ aside{
     margin-bottom: 25px;
 }
 
-.tiendaimg{
+.tiendaimg {
     background-image: url(../img/coffee-beans-917613_960_720.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-bottom: 25px;
 }
-.porcionimg{
+
+.porcionimg {
     background-image: url(../img/lemon-pie.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-bottom: 25px;
 }
-.panaderiaimg{
+
+.panaderiaimg {
     background-image: url(../img/medialuna.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-bottom: 25px;
 }
-.pasteleriaimg{
+
+.pasteleriaimg {
     background-image: url(../img/alfajor.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-bottom: 25px;
 }
-.cuadradosimg{
+
+.cuadradosimg {
     background-image: url(../img/pastafrola.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-bottom: 25px;
 }
-.meriendaimg{
+
+.meriendaimg {
     background-image: url(../img/merienda.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-bottom: 25px;
 }
-.combosimg{
+
+.combosimg {
     background-image: url(../img/combo.jpg);
     background-position: center;
     background-size: cover;
     height: 280px;
     margin-top: 10px;
 }
-.combos{
+
+.combos {
     padding: 25px;
     background-size: cover;
     background-position: center;
 }
 
-.apto{
+.apto {
     height: 20px;
 }
 
-.logoapto{
+.logoapto {
     padding: 10px;
 }
 
-.aptoimg{
+.aptoimg {
     display: inline-block;
 }
 
-.txtsuc{
+.txtsuc {
     display: inline-block;
 }
 
@@ -232,7 +258,7 @@ aside{
     text-align: center;
 }
 
-footer{
+footer {
     background-color: #eef79f;
     background-image: linear-gradient(180deg, #eef79f 0%, #4fe49e 100%);
     display: grid;
@@ -243,6 +269,7 @@ footer{
     padding-right: 20px;
     color: #7B8352;
 }
+
 .trabaja {
     display: inline-block;
     grid-area: trabaja;
@@ -254,24 +281,27 @@ footer{
     font-size: 30px;
     letter-spacing: 10px;
 }
-.redes a{
+
+.redes a {
     color: #7B8352;
 }
 
-.fb :hover{
+.fb :hover {
     transform: scale(1.25);
     transition: all 0.3s;
     color: #4267B2;
 }
-.ig :hover{
+
+.ig :hover {
     transform: scale(1.25);
     transition: all 0.3s;
     color: #C13584;
 }
-.wsp :hover{
+
+.wsp :hover {
     transform: scale(1.25);
     transition: all 0.3s;
-    color:#25D366;
+    color: #25D366;
 }
 
 .copy {
@@ -280,6 +310,7 @@ footer{
     font-weight: bold;
     padding-left: 15px;
 }
+
 /* @media only screen and (min-width: 576px) and (max-width: 768px){
     .combos{
         padding-left: 200px;
@@ -288,39 +319,46 @@ footer{
     }
 } */
 
-@media only screen and (min-width: 404px) and (max-width: 500px){
-    .copy{
+@media only screen and (min-width: 404px) and (max-width: 500px) {
+    .copy {
         font-size: 14px;
         padding-left: 20px;
-    }   
-    .trabaja{
+    }
+
+    .trabaja {
         font-size: 14px;
     }
-    .trabaja h4{
+
+    .trabaja h4 {
         font-size: 16px;
     }
-    .redes{
+
+    .redes {
         font-size: 20px;
         padding-left: 5px;
     }
+
     .carousel-item {
-    background-size: cover;
-    background-position: center;
-}
+        background-size: cover;
+        background-position: center;
+    }
 }
 
-@media only screen and (min-width: 250px) and (max-width: 403px){
-    .copy{
+@media only screen and (min-width: 250px) and (max-width: 403px) {
+    .copy {
         font-size: 14px;
         padding-left: 20px;
-    }   
-    .trabaja{
+    }
+
+    .trabaja {
         font-size: 14px;
     }
-    .trabaja h4{
+
+    .trabaja h4 {
         font-size: 16px;
     }
-    .redes{
+
+    .redes {
         font-size: 20px;
         padding-right: 0px;
         margin-right: 0px
