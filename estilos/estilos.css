@@ -30,6 +30,17 @@
     transition: all 0.3s;
     color: white !important;
 }
+h1.titulo{
+    color: #7B8352;
+    background-color: #4fe49e;
+    background-image: linear-gradient(180deg, #4fe49e 0%, #eef79f 82%);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+.container-fluid{
+    padding: 0px;
+}
 
 .carousel-item img {
     opacity: 0.85;
@@ -135,6 +146,7 @@ aside {
 
 .row {
     background-color: #eef79f;
+    justify-content: center;
 }
 
 .col-sm-6.col-md-3.col-lg-3 {
