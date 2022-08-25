@@ -147,6 +147,7 @@ aside {
 .row {
     background-color: #eef79f;
     justify-content: center;
+    padding-left: 20px;
 }
 
 .col-sm-6.col-md-3.col-lg-3 {
