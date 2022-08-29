@@ -91,12 +91,6 @@
   background-size: cover;
   background-position: center;
 }
-.container-fluid .row .btn-info {
-  background-color: #4fe49e;
-  color: #7B8352;
-  border-color: #4fe49e;
-  font-weight: 600;
-}
 .container-fluid .row .ar {
   background-image: url(../img/nosotros.jpg);
   height: 375px;
@@ -105,6 +99,17 @@
 }
 .container-fluid .row .al {
   background-color: #eef79f;
+}
+.container-fluid .row .al .btn-info {
+  background-color: #4fe49e;
+  color: #7B8352;
+  border-color: #4fe49e;
+  font-weight: 600;
+}
+.container-fluid .row .al .btn-info:hover {
+  background-color: #7B8352;
+  color: #4fe49e;
+  border-color: #7B8352;
 }
 .container-fluid .row .al h3 {
   margin: 20px;

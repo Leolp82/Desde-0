@@ -93,12 +93,7 @@ $crema: #eef79f;
             background-size: cover;
             background-position: center;
         }
-        .btn-info {
-            background-color: $verde;
-            color: $marron;
-            border-color: $verde;
-            font-weight: 600;
-        }
+        
         .ar {
             background-image: url(../img/nosotros.jpg);
             height: 375px;
@@ -108,10 +103,22 @@ $crema: #eef79f;
         
         .al {
             background-color: $crema;
+            .btn-info {
+                background-color: $verde;
+                color: $marron;
+                border-color: $verde;
+                font-weight: 600;
+            }
+            .btn-info:hover {
+                background-color: $marron;
+                color: $verde;
+                border-color: $marron;
+            }
             h3 {
             margin: 20px;
             text-align: center;
             color: $marron;
+            
         }
         }
         .col-sm-6.col-md-3.col-lg-3 {
