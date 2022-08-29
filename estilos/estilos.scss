@@ -1,0 +1,356 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+$verde:#4fe49e;
+$marron: #7B8352;
+$crema: #eef79f;
+
+.bgnav {
+    background-color: $verde
+}
+.navbar-brand {
+    text-shadow: 0 0 5px black;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-link {
+    color: $marron !important;
+    font-weight: bold;
+}
+
+.navbar-brand::before {
+    content: url(../img/logo80.jpg);
+    margin-right: 15px;
+}
+
+.nav-item a:hover {
+    transform: scale(1.25);
+    transition: all 0.3s;
+    color: white !important;
+}
+
+.container-fluid{
+    padding: 0px;
+    h1.titulo{
+        color: $marron;
+        background-color: $verde;
+        background-image: linear-gradient(180deg, $verde 0%, $crema 82%);
+        padding: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+    .carousel {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .carousel-item {
+        text-align: center;
+        height: 500px;
+        img {
+            opacity: 0.85;
+        }
+        .carousel-caption h2 {
+            color: white;
+            text-shadow: 0 0 10px black;
+            letter-spacing: 2px;
+        }
+    }
+    .carousel-control-prev-icon {
+        background-color: $marron;
+    }
+    .carousel-control-next-icon {
+    background-color: $marron;
+    }
+    aside {
+        padding: 20px;
+    }
+    .row {
+        background-color: $crema;
+        justify-content: center;
+        padding-left: 20px;
+        .nar1 {
+            background-image: url(../img/aldi.jpg);
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .nar3 {
+            background-image: url(../img/mati.jpg);
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .nmd2 {
+            background-image: url(../img/timo.jpg);
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        .btn-info {
+            background-color: $verde;
+            color: $marron;
+            border-color: $verde;
+            font-weight: 600;
+        }
+        .ar {
+            background-image: url(../img/nosotros.jpg);
+            height: 375px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .al {
+            background-color: $crema;
+            h3 {
+            margin: 20px;
+            text-align: center;
+            color: $marron;
+        }
+        }
+        .col-sm-6.col-md-3.col-lg-3 {
+            padding: 30px;
+            background-size: cover;
+            background-position: center;
+            text-align: start;
+            
+        }
+        .cafeimg {
+            background-image: url(../img/img_4.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .frioimg {
+            background-image: url(../img/cafe-frio.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .extraimg {
+            background-image: url(../img/leche-almendra.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .teimg {
+            background-image: url(../img/te-hebras.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .tiendaimg {
+            background-image: url(../img/coffee-beans-917613_960_720.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .porcionimg {
+            background-image: url(../img/lemon-pie.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .panaderiaimg {
+            background-image: url(../img/medialuna.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .pasteleriaimg {
+            background-image: url(../img/alfajor.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .cuadradosimg {
+            background-image: url(../img/pastafrola.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .meriendaimg {
+            background-image: url(../img/merienda.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .combosimg {
+            background-image: url(../img/combo.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 280px;
+            margin-top: 10px;
+        }
+        
+        .combos {
+            padding: 25px;
+            background-size: cover;
+            background-position: center;
+        }
+        .apto {
+            height: 20px;
+        }
+        
+        .logoapto {
+            padding: 10px;
+        }
+        
+        .aptoimg {
+            display: inline-block;
+        }
+        .col-sm-12.col-md-4.col-lg-4 {
+            text-align: center;
+            color: $marron;
+            .txtsuc {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+h2.nosotros {
+    background-color: $verde;
+    color: $marron;
+    text-align: center;
+    text-shadow: 0 0 2px black;
+    margin: 0px;
+}
+
+.btn-info:hover {
+    background-color: $marron;
+    color: $verde;
+    border-color: $marron;
+}
+
+.nosotros {
+    background-color: $verde;
+    color: $marron;
+    background-image: linear-gradient(180deg, $verde 0%, $crema 82%);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+
+footer {
+    background-color: $crema;
+    background-image: linear-gradient(180deg, $crema 0%, $verde 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "trabaja copy redes";
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $marron;
+    .trabaja {
+        display: inline-block;
+        grid-area: trabaja;
+    }
+    .redes {
+        grid-area: redes;
+        text-align: right;
+        font-size: 30px;
+        letter-spacing: 10px;
+        a {
+            color: $marron;
+        }
+        .fb :hover {
+            transform: scale(1.25);
+            transition: all 0.3s;
+            color: #4267B2;
+        }
+        
+        .ig :hover {
+            transform: scale(1.25);
+            transition: all 0.3s;
+            color: #C13584;
+        }
+        
+        .wsp :hover {
+            transform: scale(1.25);
+            transition: all 0.3s;
+            color: #25D366;
+        }
+    }
+    .copy {
+        grid-area: copy;
+        place-self: center;
+        font-weight: bold;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 404px) and (max-width: 500px) {
+    .copy {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .trabaja {
+        font-size: 14px;
+    }
+
+    .trabaja h4 {
+        font-size: 16px;
+    }
+
+    .redes {
+        font-size: 20px;
+        padding-left: 5px;
+    }
+
+    .carousel-item {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 403px) {
+    .copy {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .trabaja {
+        font-size: 14px;
+    }
+
+    .trabaja h4 {
+        font-size: 16px;
+    }
+
+    .redes {
+        font-size: 20px;
+        padding-right: 0px;
+        margin-right: 0px
+    }
+}

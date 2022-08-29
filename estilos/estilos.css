@@ -1,379 +1,325 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .bgnav {
-    background-color: #4fe49e
-}
-
-.nav-link {
-    color: #7B8352 !important;
-    font-weight: bold;
+  background-color: #4fe49e;
 }
 
 .navbar-brand {
-    text-shadow: 0 0 5px black;
-    display: flex;
-    align-items: center;
-    padding: 5px;
+  text-shadow: 0 0 5px black;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-link {
+  color: #7B8352 !important;
+  font-weight: bold;
 }
 
 .navbar-brand::before {
-    content: url(../img/logo80.jpg);
-    margin-right: 15px;
+  content: url(../img/logo80.jpg);
+  margin-right: 15px;
 }
 
 .nav-item a:hover {
-    transform: scale(1.25);
-    transition: all 0.3s;
-    color: white !important;
-}
-h1.titulo{
-    color: #7B8352;
-    background-color: #4fe49e;
-    background-image: linear-gradient(180deg, #4fe49e 0%, #eef79f 82%);
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-}
-.container-fluid{
-    padding: 0px;
+  transform: scale(1.25);
+  transition: all 0.3s;
+  color: white !important;
 }
 
-.carousel-item img {
-    opacity: 0.85;
+.container-fluid {
+  padding: 0px;
 }
-
-.carousel-item {
-    text-align: center;
-    height: 500px;
+.container-fluid h1.titulo {
+  color: #7B8352;
+  background-color: #4fe49e;
+  background-image: linear-gradient(180deg, #4fe49e 0%, #eef79f 82%);
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
 }
-
-.carousel-control-prev-icon {
-    background-color: #7B8352;
+.container-fluid .carousel {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
-
-.carousel-control-next-icon {
-    background-color: #7B8352;
+.container-fluid .carousel-item {
+  text-align: center;
+  height: 500px;
 }
-
-.carousel {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+.container-fluid .carousel-item img {
+  opacity: 0.85;
 }
-
-.carousel-caption h2 {
-    color: white;
-    text-shadow: 0 0 10px black;
-    letter-spacing: 2px;
+.container-fluid .carousel-item .carousel-caption h2 {
+  color: white;
+  text-shadow: 0 0 10px black;
+  letter-spacing: 2px;
+}
+.container-fluid .carousel-control-prev-icon {
+  background-color: #7B8352;
+}
+.container-fluid .carousel-control-next-icon {
+  background-color: #7B8352;
+}
+.container-fluid aside {
+  padding: 20px;
+}
+.container-fluid .row {
+  background-color: #eef79f;
+  justify-content: center;
+  padding-left: 20px;
+}
+.container-fluid .row .nar1 {
+  background-image: url(../img/aldi.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.container-fluid .row .nar3 {
+  background-image: url(../img/mati.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.container-fluid .row .nmd2 {
+  background-image: url(../img/timo.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.container-fluid .row .btn-info {
+  background-color: #4fe49e;
+  color: #7B8352;
+  border-color: #4fe49e;
+  font-weight: 600;
+}
+.container-fluid .row .ar {
+  background-image: url(../img/nosotros.jpg);
+  height: 375px;
+  background-size: cover;
+  background-position: center;
+}
+.container-fluid .row .al {
+  background-color: #eef79f;
+}
+.container-fluid .row .al h3 {
+  margin: 20px;
+  text-align: center;
+  color: #7B8352;
+}
+.container-fluid .row .col-sm-6.col-md-3.col-lg-3 {
+  padding: 30px;
+  background-size: cover;
+  background-position: center;
+  text-align: start;
+}
+.container-fluid .row .cafeimg {
+  background-image: url(../img/img_4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .frioimg {
+  background-image: url(../img/cafe-frio.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .extraimg {
+  background-image: url(../img/leche-almendra.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .teimg {
+  background-image: url(../img/te-hebras.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .tiendaimg {
+  background-image: url(../img/coffee-beans-917613_960_720.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .porcionimg {
+  background-image: url(../img/lemon-pie.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .panaderiaimg {
+  background-image: url(../img/medialuna.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .pasteleriaimg {
+  background-image: url(../img/alfajor.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .cuadradosimg {
+  background-image: url(../img/pastafrola.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .meriendaimg {
+  background-image: url(../img/merienda.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .combosimg {
+  background-image: url(../img/combo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-top: 10px;
+}
+.container-fluid .row .combos {
+  padding: 25px;
+  background-size: cover;
+  background-position: center;
+}
+.container-fluid .row .apto {
+  height: 20px;
+}
+.container-fluid .row .logoapto {
+  padding: 10px;
+}
+.container-fluid .row .aptoimg {
+  display: inline-block;
+}
+.container-fluid .row .col-sm-12.col-md-4.col-lg-4 {
+  text-align: center;
+  color: #7B8352;
+}
+.container-fluid .row .col-sm-12.col-md-4.col-lg-4 .txtsuc {
+  display: inline-block;
 }
 
 h2.nosotros {
-    background-color: #4fe49e;
-    color: #7B8352;
-    text-align: center;
-    text-shadow: 0 0 2px black;
-    margin: 0px;
-}
-
-.ar {
-    background-image: url(../img/nosotros.jpg);
-    height: 375px;
-    background-size: cover;
-    background-position: center;
-}
-
-.al {
-    background-color: #eef79f;
-}
-
-.al h3 {
-    margin: 20px;
-    text-align: center;
-    color: #7B8352;
-}
-
-.btn-info {
-    background-color: #4fe49e;
-    color: #7B8352;
-    border-color: #4fe49e;
-    font-weight: 600;
+  background-color: #4fe49e;
+  color: #7B8352;
+  text-align: center;
+  text-shadow: 0 0 2px black;
+  margin: 0px;
 }
 
 .btn-info:hover {
-    background-color: #7B8352;
-    color: #4fe49e;
-    border-color: #7B8352;
+  background-color: #7B8352;
+  color: #4fe49e;
+  border-color: #7B8352;
 }
 
 .nosotros {
-    background-color: #4fe49e;
-    color: #7B8352;
-    background-image: linear-gradient(180deg, #4fe49e 0%, #eef79f 82%);
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-}
-
-.nar1 {
-    background-image: url(../img/aldi.jpg);
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-}
-
-.nar3 {
-    background-image: url(../img/mati.jpg);
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-}
-
-.nmd2 {
-    background-image: url(../img/timo.jpg);
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-}
-
-aside {
-    padding: 20px;
-}
-
-.row {
-    background-color: #eef79f;
-    justify-content: center;
-    padding-left: 20px;
-}
-
-.col-sm-6.col-md-3.col-lg-3 {
-    padding: 30px;
-    background-size: cover;
-    background-position: center;
-    text-align: start;
-}
-
-.cafeimg {
-    background-image: url(../img/img_4.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.frioimg {
-    background-image: url(../img/cafe-frio.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.extraimg {
-    background-image: url(../img/leche-almendra.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.teimg {
-    background-image: url(../img/te-hebras.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.tiendaimg {
-    background-image: url(../img/coffee-beans-917613_960_720.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.porcionimg {
-    background-image: url(../img/lemon-pie.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.panaderiaimg {
-    background-image: url(../img/medialuna.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.pasteleriaimg {
-    background-image: url(../img/alfajor.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.cuadradosimg {
-    background-image: url(../img/pastafrola.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.meriendaimg {
-    background-image: url(../img/merienda.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-bottom: 25px;
-}
-
-.combosimg {
-    background-image: url(../img/combo.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    margin-top: 10px;
-}
-
-.combos {
-    padding: 25px;
-    background-size: cover;
-    background-position: center;
-}
-
-.apto {
-    height: 20px;
-}
-
-.logoapto {
-    padding: 10px;
-}
-
-.aptoimg {
-    display: inline-block;
-}
-
-.txtsuc {
-    display: inline-block;
-}
-
-.col-sm-12.col-md-4.col-lg-4 {
-    text-align: center;
+  background-color: #4fe49e;
+  color: #7B8352;
+  background-image: linear-gradient(180deg, #4fe49e 0%, #eef79f 82%);
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 }
 
 footer {
-    background-color: #eef79f;
-    background-image: linear-gradient(180deg, #eef79f 0%, #4fe49e 100%);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "trabaja copy redes";
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #7B8352;
+  background-color: #eef79f;
+  background-image: linear-gradient(180deg, #eef79f 0%, #4fe49e 100%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "trabaja copy redes";
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #7B8352;
 }
-
-.trabaja {
-    display: inline-block;
-    grid-area: trabaja;
+footer .trabaja {
+  display: inline-block;
+  grid-area: trabaja;
 }
-
-.redes {
-    grid-area: redes;
-    text-align: right;
-    font-size: 30px;
-    letter-spacing: 10px;
+footer .redes {
+  grid-area: redes;
+  text-align: right;
+  font-size: 30px;
+  letter-spacing: 10px;
 }
-
-.redes a {
-    color: #7B8352;
+footer .redes a {
+  color: #7B8352;
 }
-
-.fb :hover {
-    transform: scale(1.25);
-    transition: all 0.3s;
-    color: #4267B2;
+footer .redes .fb :hover {
+  transform: scale(1.25);
+  transition: all 0.3s;
+  color: #4267B2;
 }
-
-.ig :hover {
-    transform: scale(1.25);
-    transition: all 0.3s;
-    color: #C13584;
+footer .redes .ig :hover {
+  transform: scale(1.25);
+  transition: all 0.3s;
+  color: #C13584;
 }
-
-.wsp :hover {
-    transform: scale(1.25);
-    transition: all 0.3s;
-    color: #25D366;
+footer .redes .wsp :hover {
+  transform: scale(1.25);
+  transition: all 0.3s;
+  color: #25D366;
 }
-
-.copy {
-    grid-area: copy;
-    place-self: center;
-    font-weight: bold;
-    padding-left: 15px;
+footer .copy {
+  grid-area: copy;
+  place-self: center;
+  font-weight: bold;
+  padding-left: 15px;
 }
-
-/* @media only screen and (min-width: 576px) and (max-width: 768px){
-    .combos{
-        padding-left: 200px;
-        padding-right: 130px;
-        padding-bottom: 10px;
-    }
-} */
 
 @media only screen and (min-width: 404px) and (max-width: 500px) {
-    .copy {
-        font-size: 14px;
-        padding-left: 20px;
-    }
-
-    .trabaja {
-        font-size: 14px;
-    }
-
-    .trabaja h4 {
-        font-size: 16px;
-    }
-
-    .redes {
-        font-size: 20px;
-        padding-left: 5px;
-    }
-
-    .carousel-item {
-        background-size: cover;
-        background-position: center;
-    }
+  .copy {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .trabaja {
+    font-size: 14px;
+  }
+  .trabaja h4 {
+    font-size: 16px;
+  }
+  .redes {
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  .carousel-item {
+    background-size: cover;
+    background-position: center;
+  }
 }
-
 @media only screen and (min-width: 250px) and (max-width: 403px) {
-    .copy {
-        font-size: 14px;
-        padding-left: 20px;
-    }
-
-    .trabaja {
-        font-size: 14px;
-    }
-
-    .trabaja h4 {
-        font-size: 16px;
-    }
-
-    .redes {
-        font-size: 20px;
-        padding-right: 0px;
-        margin-right: 0px
-    }
-}
+  .copy {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .trabaja {
+    font-size: 14px;
+  }
+  .trabaja h4 {
+    font-size: 16px;
+  }
+  .redes {
+    font-size: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
