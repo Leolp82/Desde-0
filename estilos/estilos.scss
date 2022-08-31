@@ -52,6 +52,8 @@ $crema: #eef79f;
     .carousel-item {
         text-align: center;
         height: 500px;
+        display: flex;
+        justify-content: center;
         img {
             opacity: 0.85;
         }
@@ -70,10 +72,12 @@ $crema: #eef79f;
     aside {
         padding: 20px;
     }
+    
     .row {
         background-color: $crema;
         /* justify-content: center; */
         padding-left: 20px;
+        
         .nar1 {
             background-image: url(../img/aldi.jpg);
             height: 300px;
@@ -242,6 +246,11 @@ $crema: #eef79f;
         }
     }
 }
+.row.formulario {
+    background-color: $crema;
+    justify-content: center;
+    padding-left: 20px;}
+
 .titulo {
     background-color: $verde;
     color: $marron;
@@ -266,11 +275,6 @@ h2.nosotros {
     color: $verde;
     border-color: $marron;
 }
-
-
-
-
-
 footer {
     background-color: $crema;
     background-image: linear-gradient(180deg, $crema 0%, $verde 100%);

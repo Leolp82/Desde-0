@@ -50,6 +50,8 @@
 .container-fluid .carousel-item {
   text-align: center;
   height: 500px;
+  display: flex;
+  justify-content: center;
 }
 .container-fluid .carousel-item img {
   opacity: 0.85;
@@ -219,6 +221,12 @@
 }
 .container-fluid .row .col-sm-12.col-md-4.col-lg-4 .txtsuc {
   display: inline-block;
+}
+
+.row.formulario {
+  background-color: #eef79f;
+  justify-content: center;
+  padding-left: 20px;
 }
 
 .titulo {
