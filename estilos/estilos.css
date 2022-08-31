@@ -70,7 +70,7 @@
 }
 .container-fluid .row {
   background-color: #eef79f;
-  justify-content: center;
+  /* justify-content: center; */
   padding-left: 20px;
 }
 .container-fluid .row .nar1 {
@@ -193,7 +193,7 @@
   margin-bottom: 25px;
 }
 .container-fluid .row .combosimg {
-  background-image: url(../img/combo.jpg);
+  background-image: url(../img/img_9.jpg);
   background-position: center;
   background-size: cover;
   height: 280px;
@@ -221,6 +221,17 @@
   display: inline-block;
 }
 
+.titulo {
+  background-color: #4fe49e;
+  color: #7B8352;
+  background-image: linear-gradient(180deg, #4fe49e 0%, #eef79f 82%);
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  text-shadow: 0 0 2px black;
+}
+
 h2.nosotros {
   background-color: #4fe49e;
   color: #7B8352;
@@ -233,16 +244,6 @@ h2.nosotros {
   background-color: #7B8352;
   color: #4fe49e;
   border-color: #7B8352;
-}
-
-.nosotros {
-  background-color: #4fe49e;
-  color: #7B8352;
-  background-image: linear-gradient(180deg, #4fe49e 0%, #eef79f 82%);
-  margin: 0px;
-  display: flex;
-  justify-content: center;
-  padding: 15px;
 }
 
 footer {

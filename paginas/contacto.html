@@ -48,6 +48,27 @@
         </nav>
         <!-- nav bar termina -->
     </header>
+    <!-- Main inicia -->
+    <main>
+        <section class="container-fluid">
+            <h1 class="titulo">Dejanos tu comentario</h1>
+            <div class="row">
+                <form class="formulario" action="enviar.php" method="post" enctype="text/plain">
+                    <label for="nombre y apellido">Nombre y apellido</label>
+                    <input type="text" name="nombre y apellido"><br>
+                    <label for="mail">Correo electrónico</label>
+                    <input type="email" name="mail" required><br>
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" name="telefono" required placeholder="ej 1511111111"><br>
+                    <label for="comentarios">Comentarios</label><br>
+                    <textarea name="comentarios" id="" cols="38" rows="10"
+                        placeholder="escribe tu comentario"></textarea><br>
+                    <input type="submit">
+            </div>
+            </form>
+        </section>
+    </main>
+    <!-- Main termina -->
     <!-- footer inicia -->
     <footer>
         <div class="copy">

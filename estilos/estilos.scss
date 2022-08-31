@@ -35,6 +35,7 @@ $crema: #eef79f;
 
 .container-fluid{
     padding: 0px;
+    
     h1.titulo{
         color: $marron;
         background-color: $verde;
@@ -71,7 +72,7 @@ $crema: #eef79f;
     }
     .row {
         background-color: $crema;
-        justify-content: center;
+        /* justify-content: center; */
         padding-left: 20px;
         .nar1 {
             background-image: url(../img/aldi.jpg);
@@ -209,7 +210,7 @@ $crema: #eef79f;
         }
         
         .combosimg {
-            background-image: url(../img/combo.jpg);
+            background-image: url(../img/img_9.jpg);
             background-position: center;
             background-size: cover;
             height: 280px;
@@ -241,6 +242,16 @@ $crema: #eef79f;
         }
     }
 }
+.titulo {
+    background-color: $verde;
+    color: $marron;
+    background-image: linear-gradient(180deg, $verde 0%, $crema 82%);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    text-shadow: 0 0 2px black;
+}
 
 h2.nosotros {
     background-color: $verde;
@@ -256,15 +267,7 @@ h2.nosotros {
     border-color: $marron;
 }
 
-.nosotros {
-    background-color: $verde;
-    color: $marron;
-    background-image: linear-gradient(180deg, $verde 0%, $crema 82%);
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-}
+
 
 
 
@@ -316,6 +319,7 @@ footer {
     }
 }
 
+
 @media only screen and (min-width: 404px) and (max-width: 500px) {
     .copy {
         font-size: 14px;
@@ -340,6 +344,7 @@ footer {
         background-position: center;
     }
 }
+
 
 @media only screen and (min-width: 250px) and (max-width: 403px) {
     .copy {
