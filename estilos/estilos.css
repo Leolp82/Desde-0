@@ -218,25 +218,30 @@
   background-position: center;
   margin-top: 10px;
 }
-.row .combos {
+
+.combos {
   padding: 25px;
   background-size: cover;
   background-position: center;
 }
-.row .apto {
+
+.apto {
   height: 20px;
 }
-.row .logoapto {
+
+.logoapto {
   padding: 10px;
 }
-.row .aptoimg {
+
+.aptoimg {
   display: inline-block;
 }
-.row .col-sm-12.col-md-4.col-lg-4 {
+
+.col-sm-12.col-md-4.col-lg-4 {
   text-align: center;
   color: #7B8352;
 }
-.row .col-sm-12.col-md-4.col-lg-4 .txtsuc {
+.col-sm-12.col-md-4.col-lg-4 .txtsuc {
   display: inline-block;
 }
 
@@ -318,7 +323,7 @@ footer .copy {
     font-size: 16px;
   }
   .redes {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 5px;
   }
   .carousel-item {

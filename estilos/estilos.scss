@@ -211,24 +211,20 @@ $crema: #eef79f;
         background-image: url(../img/alfajor.jpg);
         @include bg2(center, cover, 280px, 25px)
     }
-}
-
-.cuadradosimg {
+    .cuadradosimg {
     background-image: url(../img/pastafrola.jpg);
     @include bg2(center, cover, 280px, 25px)
 }
-
-.meriendaimg {
+    .meriendaimg {
     background-image: url(../img/merienda.jpg);
     @include bg2(center, cover, 280px, 25px)
 }
-
-.combosimg {
+    .combosimg {
     background-image: url(../img/img_9.jpg);
     @include bg(280px, cover, center);
     margin-top: 10px;
 }
-
+}
 .combos {
     padding: 25px;
     background-size: cover;
@@ -346,7 +342,7 @@ footer {
     }
 
     .redes {
-        font-size: 20px;
+        font-size: 18px;
         padding-left: 5px;
     }
 
@@ -377,3 +373,4 @@ footer {
         margin-right: 0px
     }
 }
+
