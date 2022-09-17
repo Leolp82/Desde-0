@@ -312,18 +312,18 @@ footer .copy {
 }
 
 @media only screen and (min-width: 404px) and (max-width: 500px) {
-  .copy {
+  footer .copy {
     font-size: 14px;
     padding-left: 20px;
   }
-  .trabaja {
+  footer .trabaja {
     font-size: 14px;
   }
-  .trabaja h4 {
+  footer .trabaja h4 {
     font-size: 16px;
   }
-  .redes {
-    font-size: 18px;
+  footer .redes {
+    font-size: 20px;
     padding-left: 5px;
   }
   .carousel-item {
@@ -332,17 +332,17 @@ footer .copy {
   }
 }
 @media only screen and (min-width: 250px) and (max-width: 403px) {
-  .copy {
+  footer .copy {
     font-size: 14px;
     padding-left: 20px;
   }
-  .trabaja {
+  footer .trabaja {
     font-size: 14px;
   }
-  .trabaja h4 {
+  footer .trabaja h4 {
     font-size: 16px;
   }
-  .redes {
+  footer .redes {
     font-size: 20px;
     padding-right: 0px;
     margin-right: 0px;

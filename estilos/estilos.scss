@@ -211,20 +211,24 @@ $crema: #eef79f;
         background-image: url(../img/alfajor.jpg);
         @include bg2(center, cover, 280px, 25px)
     }
+
     .cuadradosimg {
-    background-image: url(../img/pastafrola.jpg);
-    @include bg2(center, cover, 280px, 25px)
-}
+        background-image: url(../img/pastafrola.jpg);
+        @include bg2(center, cover, 280px, 25px)
+    }
+
     .meriendaimg {
-    background-image: url(../img/merienda.jpg);
-    @include bg2(center, cover, 280px, 25px)
-}
+        background-image: url(../img/merienda.jpg);
+        @include bg2(center, cover, 280px, 25px)
+    }
+
     .combosimg {
-    background-image: url(../img/img_9.jpg);
-    @include bg(280px, cover, center);
-    margin-top: 10px;
+        background-image: url(../img/img_9.jpg);
+        @include bg(280px, cover, center);
+        margin-top: 10px;
+    }
 }
-}
+
 .combos {
     padding: 25px;
     background-size: cover;
@@ -328,22 +332,24 @@ footer {
 
 
 @media only screen and (min-width: 404px) and (max-width: 500px) {
-    .copy {
-        font-size: 14px;
-        padding-left: 20px;
-    }
+    footer {
+        .copy {
+            font-size: 14px;
+            padding-left: 20px;
+        }
 
-    .trabaja {
-        font-size: 14px;
-    }
+        .trabaja {
+            font-size: 14px;
+        }
 
-    .trabaja h4 {
-        font-size: 16px;
-    }
+        .trabaja h4 {
+            font-size: 16px;
+        }
 
-    .redes {
-        font-size: 18px;
-        padding-left: 5px;
+        .redes {
+            font-size: 20px;
+            padding-left: 5px;
+        }
     }
 
     .carousel-item {
@@ -354,6 +360,7 @@ footer {
 
 
 @media only screen and (min-width: 250px) and (max-width: 403px) {
+    footer{
     .copy {
         font-size: 14px;
         padding-left: 20px;
@@ -373,4 +380,4 @@ footer {
         margin-right: 0px
     }
 }
-
+}
